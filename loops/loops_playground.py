@@ -23,6 +23,10 @@
 # for letter in my_name:
 #     print(letter)
 
+from re import M
+from stat import IO_REPARSE_TAG_APPEXECLINK
+
+
 wishlist = ["igloo", "chicken", "donut toy"]
 
 # for item in range(len(wishlist)):
@@ -85,18 +89,134 @@ wishlist = ["igloo", "chicken", "donut toy"]
 # for i in range(0,1):
 #     print(sum(num))
 
-mailing_list = [
-["Chilli", "chilli@thechihuahua.com"],
-["Roary", "roary@moth.catchers"],
-["Remus", "remus@kapers.dog"],
-["Prince Thomas of Whitepaw", "hrh.thomas@royalty.wp"],
-["Ivy", "noreply@goldendreamers.xyz"],
-]
+# mailing_list = [
+# ["Chilli", "chilli@thechihuahua.com"],
+# ["Roary", "roary@moth.catchers"],
+# ["Remus", "remus@kapers.dog"],
+# ["Prince Thomas of Whitepaw", "hrh.thomas@royalty.wp"],
+# ["Ivy", "noreply@goldendreamers.xyz"],
+# ]
 
-for i in mailing_list(0,1):
-    print(mailing_list)
+
+# for i in mailing_list:
+#     print(f"{i[0]}:{i[1]}")
     
+#While Loops Excersises
+
+# # Q1
+
+# sum = 0 
+# number = ""
+# while number > 0:
+#     number = int(input('Enter a number: '))
+#     if number > 1:
+#         sum = sum + number
+    
+# print(sum)
+
+
+# number = 0
+# sum = 0
+
+# while number != "":
+#     sum += int(number)
+#     number = input("Enter a number" )
+
+
+#     sum = 0
+#     while True:
+#         number = input("Enter a number: ")
+
+#     if number == "":
+#         break
+#     else:
+#         sum += int(number)
+
+# print(sum)
+
+
+
+# Q2
+
+# number = int(input("Enter a number: ")) 
+# counter = 0
+# while counter <= number:
+#     if counter % 2 == 1:
+#       print(counter)
+#     counter += 1
+
+
+# Q3
+
+# guess = int
+# while guess != 25:
+#     guess = int(input("Guess the number: "))
+#     if guess > 25:
+#         print("Too High!")
+#     if guess < 25:
+#         print("Too Low!")
+#     if guess == 25:
+#         print("Correct!")
+
+
+# correct_number = 7
+# guessed_number = 0
+
+# while guessed_number != correct_number:
+#     guessed_number= int(input("Guess the number: "))
+
+#     if guessed_number < correct_number:
+#         print("Too Low")
+#     elif guessed_number > correct_number:
+#         print("Too high")
+#     elif guessed_number == correct_number:
+#         print("Correct")
+
+# While Loops Extension
+
+# Q1
+
+# groceries = [
+# ["Baby Spinach", 2.78],
+# ["Hot Chocolate", 3.70],
+# ["Crackers", 2.10],
+# ["Bacon", 9.00],
+# ["Carrots", 0.56],
+# ["Oranges", 3.08]
+# ]
+
+# for item in groceries
+#     # item = ["Baby spinach", 2.78]
+#     name_of_item = item[0]
+#     num_items = (f"How many of {name_of_item}?")
+#     price_per_unit = item[1]
+#     cost_of_item = num_items * price_per_unit
+#     item.append(cost_of_item)
     
 
+# print("==Izzy's Food Emporium==")
+# for item in groceries:
+#     name = item[0]
+#     cost = item[2]
+#     print(f"{name}\t{cost}")
+# print("==========================")
+# print(f"\t\t${sum}")
 
 
+#2
+
+# string_input = input("Please enter a string: ")
+
+# counter = 9
+# for letter in string_input:
+#     print(f"{counter} {letter}")
+#     counter += 1
+
+#3
+
+# number = 6
+
+# for pyramid_row in range(6): 
+#         # print(pyramid_row)
+#         pyramid_row_output = "*" * (pyramid_row)
+#         print(pyramid_row_output)
