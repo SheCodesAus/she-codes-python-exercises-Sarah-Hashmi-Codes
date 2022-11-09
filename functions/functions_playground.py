@@ -102,15 +102,32 @@
 # num = int(input("Enter a number: "))
 # number(num)
 
-def cost(price_per_unit,num_unit):
-    cost=price_per_unit * num_unit
-    print("$"cost)
+# def cost(price_per_unit,num_unit):
+#     cost=price_per_unit * num_unit
+#     print('${:,.2f}'.format(cost))
 
-price_per_unit = float(input("Enter price: "))
-num_unit = int(input("Enter number pf units: "))
-cost(price_per_unit,num_unit)
+# price_per_unit = float(input("Enter price: "))
+# num_unit = int(input("Enter number per units: "))
+# cost(price_per_unit,num_unit)
+
+# number = 10
+# if number > 11: 
+#   print(0)
+# elif number != 10:
+#   print(1)
+# elif number >= 20 or number < 12:
+#   print(2)
+# else:
+#   print(3)
 
 
-
-
-
+def color_translator(color):
+	if color == red:
+		print(#ff0000)
+	elif color == green:
+		print(#00ff00)
+	elif color == blue:
+		print(#0000ff)
+	else:
+		color != ("red", "green", "blue")
+	return unknown
