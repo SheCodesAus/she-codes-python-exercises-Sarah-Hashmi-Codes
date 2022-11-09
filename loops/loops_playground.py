@@ -214,9 +214,86 @@ wishlist = ["igloo", "chicken", "donut toy"]
 
 #3
 
-# number = 6
+# number = 5
 
 # for pyramid_row in range(6): 
 #         # print(pyramid_row)
 #         pyramid_row_output = "*" * (pyramid_row)
 #         print(pyramid_row_output)
+
+
+
+# size = int(input("Pyramid size: "))
+
+# for i in range(1, size+1):
+#     pyramid_row = "*" * (i*2 - 1)
+#     padding_row = " " * (size - i)
+#     print(f"{padding_row}{pyramid_row}{padding_row}")
+
+# n = 5
+
+# for i in range(n):
+#     for j in range (n-i-1):
+#         print("", end=" ")
+#     for j in range(2*i + 1):
+#         print("*", end="")
+#     print()
+
+
+
+name_list = ["Joy", "bunny", "ash", "kitty"]
+
+# print(f"Hi {name_list[0]})")
+
+
+
+# # for loop
+# for name in name_list:
+#    print(f"Hi {name}")
+   
+#    input("_____________") 
+
+
+#while loop
+counter = 0
+while counter < len(name_list):
+    print(f"hi {name}")
+    print(counter)
+    counter = counter + 1
+    name = name_list[counter]
+    print(f"hi{name}")
+    counter = counter + 1
+    input("__________")
+
+
+# example 2
+import random
+
+budget = 100
+how_much_spent = 0
+
+def buy_stuff():
+    cost_of_item = random.randit(0,20)
+    return cost_of_item
+
+how_much_spent += buy_stuff()
+print(f"total spent: {how_much_spent}")
+
+if how_much_spent < budget:
+    print(f"total spemt: {how_much_spent}")
+
+
+for i in range(0,100):
+    how_much_spent += buy_stuff()
+    print(f"total spent:{how_much_spent}")
+
+    input("_____")
+    if how_much_spent > budget:
+        break
+
+
+while how_much_spent < budget:
+    how_much_spent += buy_stuff()
+    print(f"totals spent: {how_much_spent}")
+
+    input("____")
